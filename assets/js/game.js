@@ -52,6 +52,10 @@ var fight = function(enemyName) {
           console.log("playerMoney", playerMoney)
           break;
         }
+        else {
+            window.alert("You have lost your robot in battle! Game Over!");
+            break;
+          }
       }
   
       // remove enemy's health by subtracting the amount set in the playerAttack variable
